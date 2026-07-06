@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f0ece2; }
+</style>
+</helmet>
+
+<template id="__bundler_thumbnail" data-bg-color="#f0ece2">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#f0ece2"/>
+    <circle cx="600" cy="360" r="180" fill="#2c5347"/>
+    <circle cx="600" cy="360" r="180" fill="none" stroke="#9aaa9c" stroke-width="2" stroke-dasharray="6 10"/>
+    <circle cx="540" cy="290" r="14" fill="#0E6E66"/>
+    <text x="600" y="640" font-family="Georgia, serif" font-size="52" fill="#1f2b25" text-anchor="middle">Applications</text>
+    <text x="600" y="700" font-family="Georgia, serif" font-size="30" fill="#0C5A52" text-anchor="middle">Kaffe Bueno</text>
+  </svg>
+</template>
+
+<div style="background: #f0ece2; font-family: Georgia, 'Times New Roman', serif; color: #1f2b25;">
+
+  <dc-import name="Nav" active="apps" hint-size="100%,80px"></dc-import>
+
+  <!-- HERO -->
+  <section style="max-width: 1280px; margin: 0 auto; padding: 96px 48px 70px;">
+    <div style="font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: #0C5A52; font-weight: 600; margin-bottom: 26px;">Applications</div>
+    <h1 style="font-size: 68px; line-height: 1.02; letter-spacing: -0.025em; margin: 0; font-weight: 400; max-width: 880px; text-wrap: balance;">Melanoidin science, built for <span style="font-style: italic; color: #0E6E66;">modern beauty.</span></h1>
+    <p style="font-family: Inter, sans-serif; font-size: 20px; line-height: 1.6; color: #4d564f; max-width: 620px; margin: 32px 0 0;">Our melanoidin actives bring hydration, firmness, elasticity, anti-glycation, and SPF boosting together in multifunctional ingredients — simplifying clean, high-performance formulations across skin longevity, resilience, and photoprotection.</p>
+  </section>
+
+  <!-- BIG APPLICATION BLOCKS -->
+  <section style="border-top: 1px solid #ddd7c8;">
+    <div style="max-width: 1280px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 56px; padding: 64px 48px; border-bottom: 1px solid #ddd7c8; align-items: center;">
+        <div style="font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #0C5A52; font-weight: 600;">01 — Skin longevity</div>
+        <div>
+          <h2 style="font-size: 40px; line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 16px; font-weight: 400;">Skin Longevity &amp; Anti-Ageing</h2>
+          <p style="font-family: Inter, sans-serif; font-size: 17px; line-height: 1.7; color: #4d564f; margin: 0 0 20px; max-width: 620px;">Clinically proven to boost hydration, firmness, and elasticity while neutralising the AGEs that stiffen ageing skin. A preventive, evidence-backed active for serums, concentrates, and intensive treatments.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px; font-family: Inter, sans-serif;">
+            <span style="font-size: 14px; color: #2c5347; background: #e7e2d6; border: 1px solid #ddd7c8; padding: 8px 16px; border-radius: 100px;">Serums &amp; concentrates</span>
+            <span style="font-size: 14px; color: #2c5347; background: #e7e2d6; border: 1px solid #ddd7c8; padding: 8px 16px; border-radius: 100px;">Masks &amp; treatments</span>
+            <span style="font-size: 14px; color: #2c5347; background: #e7e2d6; border: 1px solid #ddd7c8; padding: 8px 16px; border-radius: 100px;">Eye &amp; repair care</span>
+          </div>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 56px; padding: 64px 48px; border-bottom: 1px solid #ddd7c8; align-items: center;">
+        <div style="font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #0C5A52; font-weight: 600;">02 — Skin resilience</div>
+        <div>
+          <h2 style="font-size: 40px; line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 16px; font-weight: 400;">Skin Resilience &amp; Everyday Care</h2>
+          <p style="font-family: Inter, sans-serif; font-size: 17px; line-height: 1.7; color: #4d564f; margin: 0 0 20px; max-width: 620px;">Antioxidant and barrier-supporting activity defends skin structure against the oxidative and glycation stress behind visible ageing — resilience built into daily facial, eye, and body care.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px; font-family: Inter, sans-serif;">
+            <span style="font-size: 14px; color: #2c5347; background: #e7e2d6; border: 1px solid #ddd7c8; padding: 8px 16px; border-radius: 100px;">Facial skincare</span>
+            <span style="font-size: 14px; color: #2c5347; background: #e7e2d6; border: 1px solid #ddd7c8; padding: 8px 16px; border-radius: 100px;">Body care</span>
+            <span style="font-size: 14px; color: #2c5347; background: #e7e2d6; border: 1px solid #ddd7c8; padding: 8px 16px; border-radius: 100px;">Daily moisturisers</span>
+          </div>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 56px; padding: 64px 48px; align-items: center;">
+        <div style="font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #0C5A52; font-weight: 600;">03 — Photoprotection</div>
+        <div>
+          <h2 style="font-size: 40px; line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 16px; font-weight: 400;">SPF &amp; Photoprotection Support</h2>
+          <p style="font-family: Inter, sans-serif; font-size: 17px; line-height: 1.7; color: #4d564f; margin: 0 0 20px; max-width: 620px;">Our melanoidin complexes boost SPF by helping UV filters spread into a uniform, continuous film — raising measured protection without adding filters, and enabling lighter, more sensorial sun care with lower filter loads.</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px; font-family: Inter, sans-serif;">
+            <span style="font-size: 14px; color: #2c5347; background: #e7e2d6; border: 1px solid #ddd7c8; padding: 8px 16px; border-radius: 100px;">SPF moisturisers</span>
+            <span style="font-size: 14px; color: #2c5347; background: #e7e2d6; border: 1px solid #ddd7c8; padding: 8px 16px; border-radius: 100px;">Sun care</span>
+            <span style="font-size: 14px; color: #2c5347; background: #e7e2d6; border: 1px solid #ddd7c8; padding: 8px 16px; border-radius: 100px;">Hybrid formats</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background: #1f2b25; color: #f0ece2;">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 90px 48px; text-align: center;">
+      <h2 style="font-size: 44px; line-height: 1.05; letter-spacing: -0.02em; margin: 0 auto 22px; font-weight: 400; max-width: 680px; text-wrap: balance;">Bringing melanoidin science to <span style="font-style: italic; color: #5FBFB2;">your</span> beauty formulations?</h2>
+      <p style="font-family: Inter, sans-serif; font-size: 18px; line-height: 1.6; color: #c5bdae; max-width: 520px; margin: 0 auto 36px;">We partner with beauty brands and formulators to bring melanoidin actives into market-ready products.</p>
+      <a href="Contact.dc.html" style="text-decoration: none; font-family: Inter, sans-serif; font-size: 15px; font-weight: 600; color: #ffffff; background: #0E6E66; padding: 16px 34px; border-radius: 100px;">Start a conversation</a>
+    </div>
+  </section>
+
+  <dc-import name="Footer" hint-size="100%,420px"></dc-import>
+
+</div>
+</x-dc>
+</body>
+</html>

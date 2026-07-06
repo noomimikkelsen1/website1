@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f0ece2; }
+  @keyframes kbspin { to { transform: rotate(360deg); } }
+  .sc-host-x { width: 100%; height: 100%; }
+  image-slot { display: block; width: 100%; height: 100%; }
+</style>
+</helmet>
+
+<template id="__bundler_thumbnail" data-bg-color="#f0ece2">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#f0ece2"/>
+    <circle cx="600" cy="400" r="210" fill="#2c5347"/>
+    <circle cx="600" cy="400" r="210" fill="none" stroke="#9aaa9c" stroke-width="2" stroke-dasharray="6 10"/>
+    <circle cx="528" cy="318" r="16" fill="#0E6E66"/>
+    <circle cx="690" cy="470" r="11" fill="#f0ece2"/>
+    <text x="600" y="690" font-family="Georgia, serif" font-size="64" fill="#1f2b25" text-anchor="middle">Kaffe Bueno</text>
+  </svg>
+</template>
+
+<div style="background: #f0ece2; font-family: Georgia, 'Times New Roman', serif; color: #1f2b25;">
+
+  <dc-import name="Nav" active="" hint-size="100%,80px"></dc-import>
+
+  <!-- ============ HERO ============ -->
+  <section style="max-width: 1280px; margin: 0 auto; padding: 100px 48px 88px; display: grid; grid-template-columns: 1.12fr 0.88fr; gap: 64px; align-items: center;">
+    <div>
+      <div style="font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: #0C5A52; font-weight: 600; margin-bottom: 28px;">Melanoidin Technology Platform</div>
+      <h1 style="font-size: 72px; line-height: 1.02; letter-spacing: -0.025em; margin: 0; font-weight: 400; text-wrap: balance;">Unlocking the science of <span style="font-style: italic; color: #0E6E66;">melanoidins.</span></h1>
+      <p style="font-family: Inter, sans-serif; font-size: 19px; line-height: 1.6; color: #4d564f; max-width: 500px; margin: 30px 0 38px;">A science platform turning one of nature's most complex molecular families into multifunctional actives — for skin that stays hydrated, firm, and resilient, and sun protection that performs better with fewer filters.</p>
+      <div style="display: flex; gap: 14px; font-family: Inter, sans-serif;">
+        <a href="Melanoidin Technology.dc.html" style="text-decoration: none; font-size: 15px; font-weight: 600; color: #ffffff; background: #0E6E66; padding: 15px 28px; border-radius: 100px;">Explore the technology</a>
+        <a href="Science & Research.dc.html" style="text-decoration: none; font-size: 15px; font-weight: 600; color: #1f2b25; padding: 15px 28px; border-radius: 100px; border: 1px solid #cfc7b6;">See the science</a>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+      <div style="width: 380px; height: 380px; border-radius: 50%; background: radial-gradient(circle at 38% 32%, #fbf8f1, #d6c7a8 48%, #2c5347 100%); position: relative; box-shadow: inset 0 0 90px rgba(20,40,30,.28);">
+        <div style="position: absolute; inset: 0; border-radius: 50%; border: 1px solid #cfc4ad;"></div>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 64%; height: 64%; border-radius: 50%; border: 1px dashed #9aaa9c; animation: kbspin 60s linear infinite;"></div>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 30%; height: 30%; border-radius: 50%; border: 1px solid #b9c2a0;"></div>
+        <div style="position: absolute; top: 17%; left: 24%; width: 10px; height: 10px; border-radius: 50%; background: #0E6E66;"></div>
+        <div style="position: absolute; top: 66%; left: 72%; width: 7px; height: 7px; border-radius: 50%; background: #2c5347;"></div>
+        <div style="position: absolute; top: 72%; left: 30%; width: 6px; height: 6px; border-radius: 50%; background: #6e5a3a;"></div>
+        <div style="position: absolute; bottom: 18px; right: 20px; font-family: Inter, sans-serif; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #ffffffcc;">C₈₂H₁₀₀O₄₃N</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STAT STRIP ============ -->
+  <section style="border-top: 1px solid #ddd7c8; border-bottom: 1px solid #ddd7c8;">
+    <div style="max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); font-family: Inter, sans-serif;">
+      <div style="padding: 32px 48px; border-right: 1px solid #ddd7c8;"><div style="font-family: Georgia, serif; font-size: 38px; color: #2c5347;">2016</div><div style="font-size: 13px; color: #7a766d; margin-top: 4px;">Founded in Denmark</div></div>
+      <div style="padding: 32px 36px; border-right: 1px solid #ddd7c8;"><div style="font-family: Georgia, serif; font-size: 38px; color: #2c5347;">2019</div><div style="font-size: 13px; color: #7a766d; margin-top: 4px;">Certified B Corp</div></div>
+      <div style="padding: 32px 36px; border-right: 1px solid #ddd7c8;"><div style="font-family: Georgia, serif; font-size: 38px; color: #2c5347;">100%</div><div style="font-size: 13px; color: #7a766d; margin-top: 4px;">Upcycled biorefining</div></div>
+      <div style="padding: 32px 36px;"><div style="font-family: Georgia, serif; font-size: 38px; color: #0C5A52;">∞</div><div style="font-size: 13px; color: #7a766d; margin-top: 4px;">Platform scalability</div></div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT ARE MELANOIDINS ============ -->
+  <section style="max-width: 1280px; margin: 0 auto; padding: 100px 48px; display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 72px; align-items: start;">
+    <div>
+      <div style="font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: #0C5A52; font-weight: 600; margin-bottom: 22px;">The molecule</div>
+      <h2 style="font-size: 44px; line-height: 1.08; letter-spacing: -0.02em; margin: 0; font-weight: 400; text-wrap: balance;">Ancient molecules, an emerging category of bioactives.</h2>
+    </div>
+    <div>
+      <p style="font-family: Inter, sans-serif; font-size: 18px; line-height: 1.7; color: #4d564f; margin: 0 0 24px;">Melanoidins are complex, high-molecular-weight biopolymers formed through the Maillard reaction — present in nature for millennia. For decades they were treated as a by-product. We see an emerging category of bioactive molecules.</p>
+      <p style="font-family: Inter, sans-serif; font-size: 18px; line-height: 1.7; color: #4d564f; margin: 0 0 36px;">Using green chemistry, Kaffe Bueno isolates and characterises melanoidins as multifunctional actives — antioxidant, anti-glycation, skin-hydrating, and SPF-boosting — with clinically proven performance in beauty and personal care.</p>
+      <a href="Melanoidin Technology.dc.html" style="text-decoration: none; font-family: Inter, sans-serif; font-size: 15px; font-weight: 600; color: #0C5A52;">Understand the technology →</a>
+    </div>
+  </section>
+
+  <!-- ============ PLATFORM PILLARS ============ -->
+  <section style="background: #e7e2d6; border-top: 1px solid #ddd7c8;">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 90px 48px;">
+      <div style="font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: #0C5A52; font-weight: 600; margin-bottom: 14px;">The platform</div>
+      <h2 style="font-size: 44px; line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 52px; font-weight: 400; max-width: 640px; text-wrap: balance;">Deep science, industrial scalability, and platform applications.</h2>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;">
+        <div style="background: #f3efe6; border: 1px solid #ddd7c8; border-radius: 6px; padding: 36px 32px;">
+          <div style="font-family: Georgia, serif; font-size: 24px; color: #2c5347;">Molecular science</div>
+          <p style="font-family: Inter, sans-serif; font-size: 15px; line-height: 1.65; color: #5a6159; margin: 14px 0 0;">Deep characterisation of melanoidin structure and function, backed by clinical and in-vitro evidence.</p>
+        </div>
+        <div style="background: #f3efe6; border: 1px solid #ddd7c8; border-radius: 6px; padding: 36px 32px;">
+          <div style="font-family: Georgia, serif; font-size: 24px; color: #2c5347;">Functional performance</div>
+          <p style="font-family: Inter, sans-serif; font-size: 15px; line-height: 1.65; color: #5a6159; margin: 14px 0 0;">Multifunctional actives that deliver measurable results — antioxidant, photoprotective, anti-glycation.</p>
+        </div>
+        <div style="background: #f3efe6; border: 1px solid #ddd7c8; border-radius: 6px; padding: 36px 32px;">
+          <div style="font-family: Georgia, serif; font-size: 24px; color: #2c5347;">Industrial scalability</div>
+          <p style="font-family: Inter, sans-serif; font-size: 15px; line-height: 1.65; color: #5a6159; margin: 14px 0 0;">A green-chemistry process engineered to isolate distinct melanoidin fractions reproducibly, at commercial scale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MELANOIDIN DIRECTIONS ============ -->
+  <section style="background: #1f2b25; color: #f0ece2;">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 96px 48px; display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;">
+      <div>
+        <div style="font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: #5FBFB2; font-weight: 600; margin-bottom: 22px;">Where we're taking melanoidins</div>
+        <h2 style="font-size: 52px; line-height: 1.04; letter-spacing: -0.02em; margin: 0 0 24px; font-weight: 400; text-wrap: balance;">Skin longevity. Resilience. SPF.</h2>
+        <p style="font-family: Inter, sans-serif; font-size: 18px; line-height: 1.7; color: #c5bdae; max-width: 480px; margin: 0 0 36px;">Our melanoidin actives are clinically validated across the markers of skin longevity — delivering high gains in hydration, firmness, and elasticity. The same molecular family is now opening new directions in resilience and sun care: novel colloidal melanoidin complexes that deliver high SPF and UVA-PF uplift — more protection from fewer filters.</p>
+        <a href="Science & Research.dc.html" style="text-decoration: none; font-family: Inter, sans-serif; font-size: 15px; font-weight: 600; color: #ffffff; background: #0E6E66; padding: 15px 28px; border-radius: 100px;">Explore the science</a>
+      </div>
+      <div style="width: 100%; height: 420px;">
+        <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="home-directions-img" shape="rounded" radius="10" placeholder="Drop a product or campaign image" hint-size="100%,100%"></x-import>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APPLICATIONS ============ -->
+  <section style="max-width: 1280px; margin: 0 auto; padding: 100px 48px;">
+    <div style="display: flex; align-items: end; justify-content: space-between; margin-bottom: 48px;">
+      <div>
+        <div style="font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: #0C5A52; font-weight: 600; margin-bottom: 14px;">Applications</div>
+        <h2 style="font-size: 44px; line-height: 1.05; letter-spacing: -0.02em; margin: 0; font-weight: 400;">Built for modern beauty.</h2>
+      </div>
+      <a href="Applications.dc.html" style="text-decoration: none; font-family: Inter, sans-serif; font-size: 15px; font-weight: 600; color: #0C5A52; white-space: nowrap;">All applications →</a>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; font-family: Inter, sans-serif;">
+      <div style="border-top: 2px solid #0E6E66; padding-top: 22px;"><div style="font-family: Georgia, serif; font-size: 26px; color: #1f2b25;">Skin Longevity &amp; Anti-Ageing</div><p style="font-size: 15px; line-height: 1.6; color: #5a6159; margin: 12px 0 0;">Clinically proven hydration, firmness, and elasticity with collagen-protecting anti-glycation.</p></div>
+      <div style="border-top: 2px solid #2c5347; padding-top: 22px;"><div style="font-family: Georgia, serif; font-size: 26px; color: #1f2b25;">Skin Resilience</div><p style="font-size: 15px; line-height: 1.6; color: #5a6159; margin: 12px 0 0;">Antioxidant and barrier support that defends skin structure against oxidative and glycation stress.</p></div>
+      <div style="border-top: 2px solid #6e5a3a; padding-top: 22px;"><div style="font-family: Georgia, serif; font-size: 26px; color: #1f2b25;">SPF &amp; Photoprotection</div><p style="font-size: 15px; line-height: 1.6; color: #5a6159; margin: 12px 0 0;">SPF-boosting melanoidin complexes that optimise UV-filter film formation — higher measured SPF from lower filter loads.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section style="background: #e7e2d6; border-top: 1px solid #ddd7c8;">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 96px 48px; text-align: center;">
+      <h2 style="font-size: 52px; line-height: 1.04; letter-spacing: -0.02em; margin: 0 auto 22px; font-weight: 400; max-width: 720px; text-wrap: balance;">Let's build the future of <span style="font-style: italic; color: #0E6E66;">melanoidins</span> together.</h2>
+      <p style="font-family: Inter, sans-serif; font-size: 18px; line-height: 1.6; color: #4d564f; max-width: 520px; margin: 0 auto 36px;">For partners, investors, formulators, and industry stakeholders ready to explore what melanoidin technology can do.</p>
+      <a href="Contact.dc.html" style="text-decoration: none; font-family: Inter, sans-serif; font-size: 15px; font-weight: 600; color: #ffffff; background: #0E6E66; padding: 16px 34px; border-radius: 100px;">Partner with us</a>
+    </div>
+  </section>
+
+  <dc-import name="Footer" hint-size="100%,420px"></dc-import>
+
+</div>
+</x-dc>
+</body>
+</html>
